@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.post{
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  width: 30%;
+  margin: 20px auto;
+  background-color: rgba(46, 139, 182, 0.3);
+}
+
+
+.post-info h3{
+  margin: 10px 50px;
+}
+
+.post-info p{
+  font-size: 13px;
+  margin: 0;
+}
+
+.post-content h4{
+  margin: 10px 0;
+}
+
+.post-content p{
+  font-size: 13px;
+  margin: 0;
+}
+
+nav{
+  background-color: rgba(46, 139, 182, 0.3);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link{
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.drink{
+  padding: 20px;
+  width: 30%;
+  margin: 20px auto;
+  background-color: rgba(46, 139, 182, 0.3);
+}
+
+.drink h4,h6{
+  margin: 0;
+}
+
+form label{
+  margin: 0 5px;
+  font-weight: 600;
+}
+
+form button{
+  margin: 10px;
+}
